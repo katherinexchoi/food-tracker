@@ -2,7 +2,7 @@
 
 Simple food tracker iOS app to learn the essentials of Swift and Xcode.
 
-# How To Use
+## How To Use
 
 
 
