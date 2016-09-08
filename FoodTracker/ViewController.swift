@@ -61,15 +61,12 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         presentViewController(imagePickerController, animated: true, completion: nil)
     }
     
-    @IBAction func setDefaultLabelText(sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
-    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         // Hide the keyboard
         textField.resignFirstResponder()
         return true
     }
+    
     func textFieldDidEndEditing(textField: UITextField) {
         mealNameLabel.text = textField.text
     }
